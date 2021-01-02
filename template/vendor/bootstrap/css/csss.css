@@ -1,0 +1,42 @@
+  .navbar-toggler {
+      z-index: 1;
+    }
+
+    @media (max-width: 576px) {
+      nav>.container {
+        width: 100%;
+      }
+    }
+
+    .body {
+      background: white;
+      padding-top: 54px;
+    }
+
+	a{	
+		text-decoration: none;
+		}	
+		
+    .ghost-button {
+      width: 34%;
+      color: #008000;
+      background: #fff;
+      border: 1px solid #008000;
+      font-size: 17px;
+      padding: 7px 12px;
+      font-weight: normal;
+      margin: 6px 0;
+      margin-right: 12px;
+      display: inline-block;
+      text-decoration: none;
+      font-family: 'Open Sans', sans-serif;
+      min-width: 120px;
+	  text-decoration: none;
+    }
+
+    .ghost-button:hover,
+    .ghost-button:active {
+      color: white;
+      text-decoration: none;
+      background: #008000;
+    }

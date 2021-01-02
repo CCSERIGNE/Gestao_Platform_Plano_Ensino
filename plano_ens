@@ -1,0 +1,122 @@
+<!doctype html>
+ <html >
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  
+  <title>Plano Ensino</title>
+ 
+  <!-- Bootstrap core CSS -->
+  <link href="template/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="template/vendor/bootstrap/css/csss.css" rel="stylesheet">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <!-- Custom styles for this template -->
+  
+  <style>
+
+    
+  </style>
+</head>
+
+<body style="background-color: #fff;">
+  <!-- Navigation -->
+  <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse bg-inverse">
+    <div class="container">
+      <img height="70" src="img/logo3.png">
+      <div class="collapse navbar-collapse" id="navbarExample">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <!--<a class="nav-link" href="#"></a>-->
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+ 
+ <div class="container-fluid">    
+						<br>
+      <h2 align="center"><b></b></h2>
+        <div id="loginbox" style="margin-top:50px; " class="mainbox col-md-6 col-md-offset-2 col-sm-8 col-sm-offset-2">                    
+            <div style="background-color: #fff; border-color: green; width:887px" class="panel panel-info" >
+                    <div style="background-color:green; " class="panel-heading">
+                        <div style="color:#fff; "class="panel-title"></div>
+                        <div style="float:right; font-size: 80%; position: relative; top:-10px ; "><a href="#"></a></div>
+                    </div>     
+ 
+                    <div style="padding-top:30px" class="panel-body" >
+ 
+                        <div style="display:none" id="login-alert" class="alert alert-danger col-sm-12"></div>
+                            
+								<form method="POST" action="plano.php">
+				<center><fieldset  style=" background-color:#FFF; width : ">
+										<br>
+											<legend ><h3>PLANO ENSINO</h3></legend>
+											<div style="margin-bottom: 15px" class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-edit"> Cod Plano
+										<input type="text" name="cod_plano">
+										</i></span>
+                                      																								
+                                   </div>
+								   
+								   <div style="margin-bottom: 15px" class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"> Ano Eletivo
+										<input type="text" name="ano_eletivo">
+										</i></span>
+                                      
+																									
+                                   </div>
+								   <div style="margin-bottom: 15px" class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"> Semestre Eletivo
+										<input type="text" name="semestre_eletivo">
+										</i></span>
+                                      															
+                                   </div>
+								   
+								   <div style="margin-bottom: 25px" class="input-group">
+                                       <center> <span class="input-group-addon"><i class="glyphicon glyphicon-list"> Conteudo Programatico 
+										<textarea  cols="70" name="textcont_progra"> </textarea></i></span></center>
+								</div>
+								
+								<div style="margin-bottom: 25px" class="input-group">
+                                       <center> <span class="input-group-addon"><i class="glyphicon glyphicon-list"> Cronograma 
+										<textarea  cols="70" name="textcronograma"> </textarea></i></span></center>
+								</div>
+								
+								<div style="margin-bottom: 25px" class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-list"> Estrategico Recuperação 
+										<textarea  cols="70" name="textestra_recup"> </textarea></i></span>
+								</div>
+								   
+					<div style="margin-top:10px" class="form-group">
+                                    <!-- Button -->
+ 
+                                    <div style="position:center " class="col-sm-12 controls">
+											<center><button style="color:green;"  type="submit" > Finalizar  </button> 
+                                     <!-- <center><input type="submit" align="center" id="btn-login"  href="pagin1.html" class="btn btn-success"></center>
+                                      <a id="btn-fblogin" href="#" class="btn btn-primary">Login com Facebook</a>-->
+										
+                                    </div>
+                                </div>
+		</form>	
+ 
+				</div>                     
+       </div>  
+    </div>
+   
+		<!-- Bootstrap core JavaScript -->
+  <script src="template/vendor/jquery/jquery.min.js"></script>
+  <script src="template/vendor/tether/tether.min.js"></script>
+  <script src="template/vendor/bootstrap/js/bootstrap.min.js"></script>
+</body>									
+</html>
+ 
+ 
+
+  
+  
+  
+ 
+ 
